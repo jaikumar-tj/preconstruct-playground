@@ -1,0 +1,7 @@
+{
+  "name": "number-two",
+  "version": "1.0.0",
+  "main": "dist/number-two.cjs.js",
+  "module": "dist/number-two.esm.js",
+  "license": "MIT"
+}
