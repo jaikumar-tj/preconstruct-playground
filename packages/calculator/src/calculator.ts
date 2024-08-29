@@ -1,9 +1,5 @@
-import { createCalculator, TCalculator } from "number-two";
-
-export type TSuperCalculator = TCalculator & {
-  multiply: (a: number, b: number) => number;
-  divide: (a: number, b: number) => number;
-};
+import { createCalculator } from "calculator-basic";
+import { TSuperCalculator } from "./types";
 
 export const createSuperCalculator = (): TSuperCalculator => {
   const calculator = createCalculator();
