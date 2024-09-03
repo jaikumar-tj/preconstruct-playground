@@ -1,7 +1,0 @@
-{
-  "name": "calculator-basic",
-  "version": "1.0.0",
-  "main": "dist/calculator-basic.cjs.js",
-  "module": "dist/calculator-basic.esm.js",
-  "license": "MIT"
-}

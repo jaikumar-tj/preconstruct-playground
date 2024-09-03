@@ -1,0 +1,19 @@
+{
+  "name": "@carlos-test-data/product",
+  "version": "10.2.0",
+  "keywords": ["javascript", "typescript", "test-data"],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/carlos-test-data-product.cjs.js",
+  "module": "dist/carlos-test-data-product.esm.js",
+  "files": ["dist", "package.json", "LICENSE", "README.md"],
+  "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "@babel/runtime-corejs3": "^7.17.9",
+    "@carlos-test-data/category": "10.2.0",
+    "@carlos-test-data/product-type": "10.2.0",
+    "@faker-js/faker": "^8.0.0"
+  }
+}
